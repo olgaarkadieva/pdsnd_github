@@ -7,13 +7,11 @@ CITY_DATA = { 'chicago' 'chicago.csv',
               'new york city' 'new_york_city.csv',
               'washington' 'washington.csv' }
 '''
-CITY_DATA = {'chicago': 'chicago.csv',
-             'new york city': 'new_york_city.csv',
+CITY_DATA = {'chicago': 'chicago.csv', 'new york city': 'new_york_city.csv',
              'washington': 'washington.csv'}
 MONTH_DATA = ['all', 'january', 'february', 'march', 'april', 'may', 'june']
 
-DAY_DATA = ['all', 'monday', 'tuesday',
-            'wednesday', 'friday', 'saturday', 'sunday']
+DAY_DATA = ['all', 'monday', 'tuesday', 'wednesday', 'friday', 'saturday', 'sunday']
 
 
 def get_filters():
@@ -25,7 +23,7 @@ def get_filters():
         (str) day - name of the day of week to filter by, or all to apply no day filter
     """
 
-    print("Hello! Let's explore some US bikeshare data!")
+    print("Hello! Let's explore some bikeshare data of US!")
     # TO DO get user input for city (chicago, new york city, washington). HINT Use a while loop to handle invalid inputs
     city_name = ''
     while city_name.lower() not in CITY_DATA:
@@ -36,7 +34,7 @@ def get_filters():
             city = CITY_DATA[city_name]
         else:
             # We were not able to get the name of the city to analyze data so we continue the loop.
-            print("Sorry we were not able to get the name of the city to analyze data, Please input either chicago, new york city or washington")
+            print("Sorry, we were not able to get the name of the city to analyze data, Please input either chicago, new york city or washington")
 
     # TO DO get user input for month (all, january, february, ... , june)
     month_name = ''
