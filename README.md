@@ -1,15 +1,22 @@
+# Bikeshare.py
+ ##   `A Project for Data Science Nanodegree Program`
+
 ### Date created
-Include the date you created this project and README file.
+#### 8/30/2020
 
 ### Project Title
-Replace the Project Title
+#### Bike Share
 
 ### Description
-Describe what your project is about and what it does
+#### This project Uses Python to understand U.S. bikeshare data. Calculate statistics and build an interactive environment where a user chooses and filter for a dataset to analyze.
 
 ### Files used
-Include the files used
+`chicago.csv` - file is the dataset containing all bikeshare information for the city of Chicago provided by Udacity.
+
+`new_york_city.csv` - Dataset containing all bikeshare information for the city of New York provided by Udacity.
+
+`washington.csv` - Dataset containing all bikeshare information for the city of Washington provided by Udacity.
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+`Udacity` for providing content.
 
