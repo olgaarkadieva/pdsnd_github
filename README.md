@@ -18,5 +18,5 @@
 `washington.csv` - Dataset containing all bikeshare information for the city of Washington provided by Udacity.
 
 ### Credits
-`Udacity` for providing content.
+`Udacity`
 
