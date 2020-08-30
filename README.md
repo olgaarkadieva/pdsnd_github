@@ -2,7 +2,7 @@
  ##   `A Project for Data Science Nanodegree Program`
 
 ### Date created
-#### 8/30/2020
+#### August 30, 2020
 
 ### Project Title
 #### Bike Share
